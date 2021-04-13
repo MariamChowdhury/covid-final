@@ -5,10 +5,9 @@ body {
 .blah {
   border-radius: 20px;
 }
-.scl{
-  
-    margin: auto;
-    text-align: center;
+.scl {
+  margin: auto;
+  text-align: center;
 }
 .yellowColor {
   background-color: #f2f4c0;
@@ -142,7 +141,9 @@ li {
   .card-width {
     flex: none;
   }
-  .card-size{
+  .card-size,
+  .card-size-8,
+  .card-size-7 {
     width: 19rem;
   }
   @-ms-viewport {
@@ -156,7 +157,8 @@ li {
     margin-left: auto;
     margin-right: auto;
   }
-  .card-body h5,.card-body p {
+  .card-body h5,
+  .card-body p {
     margin-top: 0.8rem;
     text-align: center;
   }
@@ -173,7 +175,9 @@ li {
   .covid-button {
     display: grid;
   }
-  .card-size{
+  .card-size,
+  .card-size-8,
+  .card-size-7 {
     width: 19rem;
   }
   .card-width {
@@ -187,7 +191,8 @@ li {
     margin-left: auto;
     margin-right: auto;
   }
-  .card-body h5,.card-body p  {
+  .card-body h5,
+  .card-body p {
     margin-top: 0.8rem;
     text-align: center;
   }
@@ -210,6 +215,10 @@ li {
   .about-us-section-style {
     width: 42rem;
   }
+  .card-size-8,
+  .card-size-7 {
+    width: 19rem;
+  }
   .about-us-border-rad img {
     display: block;
     margin-left: auto;
@@ -218,7 +227,8 @@ li {
   .padding-left {
     padding-left: 2.4rem;
   }
-  .card-body h5,.card-body p {
+  .card-body h5,
+  .card-body p {
     margin-top: 0.8rem;
   }
 }
@@ -230,40 +240,58 @@ li {
   .traffic-button {
     display: grid;
   }
-  .card-column-1,.card-column-2,.card-column-3,.card-column-4,.card-column-5,.card-column-6,.card-column-7,.card-column-8{
+  .card-column-1,
+  .card-column-2,
+  .card-column-3,
+  .card-column-4,
+  .card-column-5,
+  .card-column-6,
+  .card-column-7,
+  .card-column-8 {
     width: 33.33%;
   }
   .about-us-section-style {
     width: 48rem;
   }
-}
-/* xl */
-@media (min-width: 1200px) and (max-width: 1399.98px) {
-  .covid-button,
-  .blood-button,
-  .blood-bank-button,
-  .traffic-button {
-    display: grid;
-  }
-  .card-column-1,.card-column-2,.card-column-3{
-    width: 33.33%;
-   
-  }
-  .card-column-4,.card-column-5,.card-column-6{
-    width: 33.33%;
-  }
-  .card-column-7,.card-column-8{
-    width: 50%;
-  }
-  .about-us-section-style {
-    width: 52rem;
+  .card-size-8,
+  .card-size-7 {
+    width: 19rem;
   }
 }
-/* xxl */
-@media (min-width: 1400px) {
-  .about-us-section-style {
-    width: 52rem;
+  /* xl */
+  @media (min-width: 1200px) and (max-width: 1399.98px) {
+    .covid-button,
+    .blood-button,
+    .blood-bank-button,
+    .traffic-button {
+      display: grid;
+    }
+    .card-size,
+    .card-size-8,
+    .card-size-7 {
+      width: 19rem;
+    }
+    .card-column-1,
+    .card-column-2,
+    .card-column-3 {
+      width: 33.33%;
+    }
+    .card-column-4,
+    .card-column-5,
+    .card-column-6 {
+      width: 33.33%;
+    }
+    .about-us-section-style {
+      width: 52rem;
+    }
   }
-}
-/*KAISER'S PART*/
-/* END */
+  /* xxl */
+  @media (min-width: 1400px) {
+    .about-us-section-style {
+      width: 52rem;
+    }
+    .card-size {
+      width: 18rem;
+    }
+  }
+
