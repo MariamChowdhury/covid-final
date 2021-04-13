@@ -5,7 +5,11 @@ body {
 .blah {
   border-radius: 20px;
 }
-
+.scl{
+  
+    margin: auto;
+    text-align: center;
+}
 .yellowColor {
   background-color: #f2f4c0;
 }
@@ -250,13 +254,13 @@ li {
 }
 /* xxl */
 @media (min-width: 1400px) {
-  .blood-button,
+  /* .blood-button,
   .blood-bank-button{
     margin-left: 2.2rem;
   }
   .traffic-button {
     margin-left: 2.4rem;
-  }
+  } */
   .about-us-section-style {
     width: 52rem;
   }
