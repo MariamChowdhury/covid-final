@@ -1,0 +1,265 @@
+/* KAISER */
+body {
+  font-family: "Poppins", sans-serif;
+}
+.blah {
+  border-radius: 20px;
+}
+
+.yellowColor {
+  background-color: #f2f4c0;
+}
+.card-photo-percent-size {
+  width: 40%;
+  margin: auto;
+}
+
+.footer-background {
+  background-color: #212529;
+  color: white;
+}
+.footer-background a {
+  text-decoration: none;
+  color: white;
+}
+.traffic {
+  color: black;
+  text-decoration: none;
+}
+.traffic:hover {
+  color: black;
+}
+.categories {
+  width: 66%;
+}
+.button-color {
+  background-color: #f9c86e;
+  color: black;
+}
+.btn-font {
+  font-weight: 500;
+}
+.logo img {
+  height: 30px;
+}
+
+/* Death Infected Recovered  */
+.redColor {
+  background-color: white;
+  border: 6px solid #ee4851;
+  border-radius: 20px;
+}
+.blueColor {
+  background-color: white;
+  border: 6px solid #5377e6;
+  border-radius: 20px;
+}
+.greenColor {
+  background-color: white;
+  border: 6px solid #2fb78a;
+  border-radius: 20px;
+}
+.color-red {
+  color: #ee4851;
+}
+.color-blue {
+  color: #5377e6;
+}
+.color-green {
+  color: #2fb78a;
+}
+.survival-rate-font-style {
+  font-size: 2.5rem;
+}
+
+.fonts {
+  font-weight: 700;
+  margin: 0 auto;
+}
+.poppins-semibold {
+  font-weight: 600;
+}
+.card {
+  margin: 0 auto;
+  float: none;
+}
+li {
+  list-style: none;
+}
+#footer {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.line-gap {
+  padding-left: 14px;
+}
+
+/*KAISER'S PART*/
+/* START */
+.card-round-border {
+  border: none;
+  border-radius: 20px;
+}
+.card-photo {
+  width: 16rem;
+  height: 9rem;
+  margin: 10px auto 5px auto;
+  border-radius: 20px;
+  background-color: #f1f1f1;
+}
+.zero-margin {
+  margin: 0;
+}
+.zero-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* About us */
+.about-us-border-rad img {
+  border-radius: 20px;
+}
+.about-us-title-font {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+/* Media Queries */
+/* xm */
+@media (max-width: 575.98px) {
+  .blood-button,
+  .blood-bank-button,
+  .traffic-button,
+  .covid-button {
+    display: grid;
+  }
+  .card-width {
+    flex: none;
+  }
+  @-ms-viewport {
+    width: 320px;
+  }
+  .about-us-section-style {
+    width: 22rem;
+  }
+  .about-us-border-rad img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card-body h5,.card-body p {
+    margin-top: 0.8rem;
+    text-align: center;
+  }
+  .social-media-style {
+    align-items: center;
+    justify-content: center;
+  }
+}
+/* sm */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .blood-button,
+  .blood-bank-button,
+  .traffic-button,
+  .covid-button {
+    display: grid;
+  }
+  .card-width {
+    flex: none;
+  }
+  .about-us-section-style {
+    width: 26rem;
+  }
+  .about-us-border-rad img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card-body h5,.card-body p  {
+    margin-top: 0.8rem;
+    text-align: center;
+  }
+  .social-media-style {
+    align-items: center;
+    justify-content: center;
+  }
+}
+/* md */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .covid-button,
+  .blood-button,
+  .blood-bank-button,
+  .traffic-button {
+    display: grid;
+  }
+  .card-width {
+    flex: none;
+  }
+  .about-us-section-style {
+    width: 42rem;
+  }
+  .about-us-border-rad img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .padding-left {
+    padding-left: 2.4rem;
+  }
+  .card-body h5,.card-body p {
+    margin-top: 0.8rem;
+  }
+}
+/* l */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .covid-button,
+  .blood-button,
+  .blood-bank-button,
+  .traffic-button {
+    display: grid;
+  }
+  .card-column-1,.card-column-2,.card-column-3,.card-column-4,.card-column-5,.card-column-6,.card-column-7,.card-column-8{
+    width: 50%;
+  }
+  .about-us-section-style {
+    width: 48rem;
+  }
+}
+/* xl */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .covid-button,
+  .blood-button,
+  .blood-bank-button,
+  .traffic-button {
+    display: grid;
+  }
+  .card-column-1,.card-column-2,.card-column-3{
+    width: 50%;
+  }
+  .card-column-4,.card-column-5,.card-column-6{
+    width: 50%;
+  }
+  .card-column-7,.card-column-8{
+    width: 50%;
+  }
+  .about-us-section-style {
+    width: 52rem;
+  }
+}
+/* xxl */
+@media (min-width: 1400px) {
+  .blood-button,
+  .blood-bank-button{
+    margin-left: 2.2rem;
+  }
+  .traffic-button {
+    margin-left: 2.4rem;
+  }
+  .about-us-section-style {
+    width: 52rem;
+  }
+}
+/*KAISER'S PART*/
+/* END */
