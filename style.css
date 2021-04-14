@@ -269,28 +269,32 @@ li {
     .card-size
      {
       width: 19rem;
+     
     }
-    .card-column-1,
-    .card-column-2,
-    .card-column-3 {
-      width: 33.33%;
+    .card-size-8,
+    .card-size-7{
+     margin-left: 1rem;
+     margin-right: 1rem;
     }
-    .card-column-4,
-    .card-column-5,
-    .card-column-6 {
-      width: 33.33%;
-    }
+    
     .about-us-section-style {
       width: 52rem;
     }
   }
   /* xxl */
+  /* done  */
   @media (min-width: 1400px) {
     .about-us-section-style {
       width: 52rem;
     }
-    .card-size {
+    .card-size ,.card-size-8,
+    .card-size-7{
       width: 18rem;
     }
+    .card-img{
+      width: 15rem;
+    height: 8rem;
+     
+        }
   }
 
